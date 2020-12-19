@@ -1,12 +1,12 @@
 export const videos =[
     {
         id:1324,
-        title:"Video shit",
+        title:"Video Lithium Battery",
         description:"This is you favorite",
-        views:24,
-        videoFile:"https://archive.org/details/BigBuckBunny_124",
+        views:22,
+        videoFile:"https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4",
         creator:{
-            id:13579,
+            id:33379,
             name:"Nicolas",
             email:"nico@las.com"
         }
@@ -16,11 +16,11 @@ export const videos =[
         title:"Video awesome",
         description:"This is his favorite",
         views:24,
-        videoFile:"https://archive.org/details/BigBuckBunny_124",
+        videoFile:"https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4",
         creator:{
             id:13579,
-            name:"Nicolas",
-            email:"nico@las.com"
+            name:"Nicoles",
+            email:"nico3@las.com"
         }
     },
     {
@@ -28,11 +28,11 @@ export const videos =[
         title:"Video hello",
         description:"This is my favorite",
         views:24,
-        videoFile:"https://archive.org/details/BigBuckBunny_124",
+        videoFile:"https://archive.org/download/BigBuckBunny_124/Content/big_buck_bunny_720p_surround.mp4",
         creator:{
-            id:13579,
-            name:"Nicolas",
-            email:"nico@las.com"
+            id:13577,
+            name:"Nicolai",
+            email:"nico2@las.com"
         }
     }
 ]

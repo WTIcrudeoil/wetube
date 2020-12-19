@@ -11,7 +11,7 @@ export const search = (req,res) =>{
     //res.render("search",{pageTitle:"Search",searchingBy:searchingBy});
     //ES6 표기 위쪽 / 코드 이전 표기방식
     const {query:{term:searchingBy}} = req; 
-    res.render("search",{pageTitle:"Search",searchingBy});
+    res.render("search",{pageTitle:"Search",searchingBy,videos});
 };    
 
 
