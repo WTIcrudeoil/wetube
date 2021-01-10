@@ -463,6 +463,7 @@ button {
   opacity: 1;
 }
 .videoPlayer video {
+  width: 100%;
   max-width: 100%;
 }
 .videoPlayer .videoPlayer__controls {
@@ -493,9 +494,23 @@ button {
      -moz-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
 }
-.videoPlayer .videoPlayer__controls .videoPlayer__column:first-child span:first-child {
+.videoPlayer .videoPlayer__controls .videoPlayer__column:first-child #jsVolumeButton {
   margin-right: 10px;
+}
+.videoPlayer .videoPlayer__controls .videoPlayer__column:first-child input {
+  position: absolute;
+  -webkit-transform: rotate(-90deg);
+     -moz-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+       -o-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  width: 90px;
+  height: 10px;
+  left: -45px;
+  bottom: 75px;
+  padding: 0px;
 }
 .videoPlayer .videoPlayer__controls .videoPlayer__column:last-child {
   justify-self: end;
