@@ -30,7 +30,7 @@ const sendComment = async(comment) =>{
     if(response.status === 200){
         addComment(comment);
     };
-    
+
 }
 
 const handleSubmit = (event) =>{
@@ -47,4 +47,4 @@ function init(){
 
 if(addCommentForm){
     init();
-}
+} 
